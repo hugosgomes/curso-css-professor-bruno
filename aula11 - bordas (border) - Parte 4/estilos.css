@@ -1,0 +1,6 @@
+p{
+    height: 400px;
+    width: 300px;
+    border: 30px solid;
+    border-image: url(borderpng.png) 30 stretch;
+}

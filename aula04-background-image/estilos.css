@@ -1,0 +1,16 @@
+body{
+    background-color: #bbb;
+    background-image: url(download.png), url(download\ \(1\).png);
+    background-size: 200px, 300px;
+    background-repeat: no-repeat, repeat;
+    background-position: 200px 200px;
+}
+
+p{
+    background-color: #0F0;
+    background-image: url(images.png);
+    background-repeat: repeat-x;
+    background-size: 50px;
+    color: #FFF;
+    font-size: 50pt;
+}
