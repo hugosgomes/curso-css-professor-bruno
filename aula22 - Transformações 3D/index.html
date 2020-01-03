@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso de CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <script>
+        var y,ny=0,rotYINT;
+
+            function rotateYDIV() {
+                y=document.getElementById("dv1");
+                clearInterval(rotYINT);
+                rotYINT=setInterval("startYRotate()",30);
+                //alert("Teste");
+            }
+
+            function startYRotate() {
+                ny=ny+1;
+                y.style.transform="rotateY(" + ny + "deg) translate(200px, 200px)";
+                if (ny===180 || ny>=360) {
+                    clearInterval(rotYINT);
+                    if(ny>=360){ny=0}
+                }
+            }
+    </script>
+</head>
+<body>
+
+    <div id="dv1" onclick="rotateYDIV()">
+        CFB
+    </div>
+    
+</body>
+</html>
