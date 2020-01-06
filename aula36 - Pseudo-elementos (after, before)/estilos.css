@@ -1,0 +1,12 @@
+.cfb::before{
+    content: url(../images/html.png);
+    color: #f00;
+}
+
+.cfb::after{
+    content: url(../images/html.png);
+}
+
+p{
+    font-size: 40px;
+}
