@@ -1,0 +1,24 @@
+div, span{
+    border:1px solid #000;
+    margin:10px;
+    width: 100px;
+    height: 100px;
+}
+
+#d1{
+    /* display: none; */
+    /* visibility: hidden; */
+    display: inline-block;
+}
+
+#s1{
+    display: inline-block;
+}
+
+#d2{
+    display: inline-block;
+}
+
+#s2{
+    display: inline-block;
+}
